@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Nicole Quilang Portfolio">
+    <meta name="keywords" content="Nicole Quilang, Portfolio">
+    <meta name="author" content="Nicole Quilang">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" as="style">
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" media="print" onload="this.media='all'">
+    <title>Nicole Quilang Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="#" class="logo">NSQ</a>
+        </div>
+        <ul class="navibar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#timeline">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="hometext">
+            <h4>Hello there, I am</h4>
+            <h1>Nicole S. Quilang</h1>
+            <p>A 3rd year Computer Science Student</p>
+            <div class="button"> 
+                <a href="#about" class="knowMorebtn" id="knowMoreBtn">Know More</a>
+                <a href="https://drive.google.com/file/d/1jlZhEOqOHRsQ9BPx5fUMlHHS3K1QlhgG/view?usp=sharing" target="_blank" class="viewResumebtn" id="viewResumeBtn">Resume</a>
+            </div>
+        </div>  
+        <div class="home-img">
+            <img src="img/profile1.webp" alt="home-profile" loading="lazy">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/profile_2.webp" alt="about-profile" loading="lazy">
+        </div>
+        <div class="abouttext">
+            <h2>About Me</h2>
+            <h4>Computer Science Student!</h4>
+            <p>I am Nicole S. Quilang, a third year Computer Science student at National University Laguna. I have a basic knowledge in making a website using HTML, CSS, and JavaScript. Also, I have a basic knowledge in other programming languages such as Java and Python.</p>
+            <a href="#" class="homeAboutbtn">Home</a>
+        </div>
+    </section>
+
+    <section class="timelinesection" id="timeline">
+        <div class="educationtext">
+            <h2><span>My Education</span></h2>
+        </div>
+        <div class="timeline-container">
+            <div class="timelineitems">
+                <div class="timelineitem">
+                    <div class="timelinecircle"></div>
+                    <div class="timelinedate">2022-present</div>
+                    <div class="timelinecontent">
+                        <h3>College - BS Computer Science</h3>
+                        <h4>National University Laguna</h4>
+                    </div>
+                </div>
+                
+                <div class="timelineitem">
+                    <div class="timelinecircle"></div>
+                    <div class="timelinedate">2020-2022</div>
+                    <div class="timelinecontent">
+                        <h3>Senior High School - STEM</h3>
+                        <h4>National University Laguna</h4>
+                    </div>
+                </div>
+                <div class="timelineitem">
+                    <div class="timelinecircle"></div>
+                    <div class="timelinedate">2016-2020</div>
+                    <div class="timelinecontent">
+                        <h3>Junior High School</h3>
+                        <h4>St. Theodore School, Inc.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="projectsGridSection">
+            <div class="flexColumnWrapper">
+                <h1 class="projecttext" data-aos="slide-down">My Works</h1>
+                <div class="flexRowWrapper">
+
+                    <div class="intensiteaCard">
+                        <div class="IntensiteaCardContent">
+                            <a href="#projects">
+                                <img class="intensiteaImage" src="./assets/a60dd6a8fa6ad6b54e416da54085d0a5.webp" alt="intensitea" loading="lazy">
+                            </a>
+                            <p class="intensitieaTitle">Intensitea Blends Procurement Management System</p>
+                            <p class="intensiteaDescription">
+                                This system is made to establish a centralized platform, enabling the establishment to effectively observe the consumption patterns in their suppliers, inventory, request purchase orders, and associated tasks.
+                            </p>
+                            <div class="intensiteaPLanguage">
+                                <a href="#projects"><img class="html" src="./assets/0809ce5ab46a3dd6f46ae0a6965168ef.webp" alt="html-icon" loading="lazy"></a>
+                                <a href="#projects"><img class="css" src="./assets/2e43eca45af758b484ac1ea55c6a45ab.webp" alt="css-icon" loading="lazy"> </a>
+                                <a href="#projects"><img class="jscript" src="./assets/c25575ea1bf31fb5a38bfbb20c9376df.webp" alt="jscript-icon" loading="lazy"></a>
+                                <a href="#projects"><img class="php" src="./assets/6f25407d0cc1dba2d470145b35100e5f.webp" alt="php-icon" loading="lazy"></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hondaCard">
+                        <div class="hondaCardContent">
+                            <a href="#projects">
+                                <img class="hondaImage" src="./assets/347e07724a1d428b2ff99aaa4d5a1353.webp" alt="honda-clinic" loading="lazy"> 
+                            </a>
+                            <p class="hondaTitle">Honda Clinic - Biñan Patient Management System</p>
+                            <p class="hondaDescription">
+                                This system is made to track medication history, identify patient records, and prevent prescription errors, ultimately enhancing patient care and safety.
+                            </p>
+                            <div class="hondaPLanguage">
+                                <a href="#"><img class="java" src="./assets/0cc7eece7a5d0c58677c14b893bf3337.webp" alt="java-icon" loading="lazy"></a>
+                                <a href="#"><img class="scenebuilder" src="./assets/4c86161a30ba282f92bb02bb383fee74.webp" alt="scenebuilder-icon" loading="lazy"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="engkantoCard">
+                        <div class="engkantoCardContent">
+                            <a href="#" target="_blank">
+                                <img class="engkantoImage" src="./assets/8524cc49338ed822ac3e1aecd05d740f.webp" alt="engkanto-game" loading="lazy">
+                            </a>
+                            <p class="engkantoTitle">Engkanto: Siklaban Para sa Dugo ni Bathala - Scratch Game</p>
+                            <p class="engkantoDescription">
+                                "Engkanto" is a 2-player fighting game set in the Philippines. Players choose a character and map, then battle to reduce their opponent's health within 59 seconds. The first player to win 2 rounds wins the match and gains the magical blood of Bathala.
+                            </p>
+                            <div class="engkantoPLanguage">
+                                <a href="#"><img class="scratch" src="./assets/f2058adf1c6b244b8129e0f811aa5c87.webp" alt="scratch" loading="lazy"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contacttext">
+            <h2>Contact <span>Me!</span></h2>
+            <h5>If you need help, have concern, or want to collaborate.</h5>
+            <div class="list">
+                <ul>
+                    <li><a href="#contact">09623062561</a></li>
+                    <li><a href="#contact">qlngncl@gmail.com</a></li>
+                    <li><a href="#contact">Add and follow me on</a></li>
+                </ul>
+            </div>
+            <div class="contacticons">
+                <a href="https://www.facebook.com/nclqlng" target="_blank" rel="noopener noreferrer" aria-label="Visit my Facebook profile">
+                    <i class='bx bxl-facebook' aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/0l00lll0" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">
+                    <i class='bx bxl-github' aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nicole-quilang-861517239/" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">
+                    <i class='bx bxl-linkedin' aria-hidden="true"></i>
+                </a>
+                
+            </div>
+        </div>
+        <div class="contactform">
+            <div class="contactform_container">
+                <form action="https://formspree.io/f/mdknkvvq" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <input type="email" name="email" placeholder="Your Email Address" required>
+                    <input type="text" name="contact" placeholder="Your Contact Number" required>
+                    <textarea name="message" cols="30" rows="10" placeholder="How can I help you?" required></textarea>
+                    <input type="submit" value="Send Message" class="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="end">
+        <div class="lasttext">
+            <p>Copyright © by Nicole Quilang All Rights Reserved.</p>
+        </div>
+        <div class="top">
+            <a href="#home" aria-label="Go to Home section"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
