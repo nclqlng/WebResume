@@ -1,4 +1,4 @@
-Welcome to my portfolio! I'm Nicole, an aspiring Web Developer passionate about building engaging, user-friendly frontend experiences.
+Welcome to my portfolio! I'm Nicole, a Computer Science student passionate about technology, problem‑solving, and creating innovative digital solutions.
 
 This portfolio showcases my journey, skills, and selected projects as I continue to grow in the world of web development.
 
